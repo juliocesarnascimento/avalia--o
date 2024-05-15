@@ -1,37 +1,83 @@
-*{
+* {
 
 
-margin: 0;
+    margin: 0;
 
 
-padding: 0;
-
-
-}
-
-.menu{
-
-
-padding: 8rem;
-
-background-color:#f67975;
-
-display: flex;
-
-justify-content: end;
-
- 
-
+    padding: 0;
 
 
 }
 
+.menu {
 
 
-.menu li{
+    padding: 3rem;
 
+    background-color: #f67975;
+
+    display: flex;
+
+    justify-content: end;
+
+    color: white;
+
+
+
+}
+
+.Ul-list {
+    display: flex;
+    justify-content: end;
+}
+
+.Ul-list li {
+margin-left: 20px;
 list-style: none;
 
+}
+
+
+.Ul-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secao {
+
+    padding: 10rem;
+
+    background-color: #ddc996;
+
+    display: flex;
+    justify-content: space-evenly;
+
+gap: 20px;
+
+}
+
+
+.secao img {
+
+    height: 10rem;
+
+    width: 10rem;
 
 
 }
@@ -53,56 +99,13 @@ list-style: none;
 
 
 
-.secao{
-
-padding: 15rem;
-
-background-color: #ddc996;
-
-justify-content: center;
-
-background-position: center;
-
-background-repeat: no-repeat;
-
-background-position: center;
-
-
-
-}
-
-
-.secao img{
-
-height: 10rem;
-
-width: 10rem;
-
-
-}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.secao2  {
+.secao2 {
 
 
 
@@ -110,12 +113,12 @@ width: 10rem;
     width: 150px;
     height: 10rem;
     font-size: 10px;
-display: flex;
-gap: 30px;
-align-items: center;
-background-color: #caf2be;
-text-align: center;
-font-size: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: #caf2be;
+    text-align: center;
+    font-size: 20px;
 
 
 }
@@ -130,18 +133,18 @@ font-size: 20px;
 
 
 
-.rodape{
+.rodape {
 
 
 
-padding: 10rem;
+    padding: 10rem;
 
-background-color:#7fda89 ;
+    background-color: #7fda89;
 
 
-display: flex;
+    display: flex;
 
-gap: 100px;
+    gap: 100px;
 
 
 
@@ -149,6 +152,33 @@ gap: 100px;
 
 
 
+
+
+    .formulario{
+
+    padding: 30rem;
+    
+    background-color: gray;
+    
+    text-align: center;
+    
+    margin-top: 20rem;
+}
+
+
+
+
+.titulo{
+
+    text-align: center;
+    
+    padding: 10rem;
+    
+   
+     
+    
+    
+    }
 
 
 
